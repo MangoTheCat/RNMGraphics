@@ -185,7 +185,7 @@ nmScatterPlot.data.frame <- function(obj, xVars, yVars, bVars = NULL, gVars = NU
 	titles <- rep(titles,numCombos)
 	
 	# assign and y labels, taking care to handle the case where they are missing
-	# TODO: There is a quirk here in that xLab and yLab _cannot_ be a comma seperated list since empty strings
+	# TODO: There is a quirk here in that xLab and yLab _cannot_ be a comma separated list since empty strings
 	# are currently deleted by CSLtoVector.  A workaround is needed for this, and documentation should
 	# make clear thet CSLs are not allowed.  In any case, this is irrelevant since numCombos can only be 1
 	if(!is.null(xLab))

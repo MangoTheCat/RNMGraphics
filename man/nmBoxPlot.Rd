@@ -11,7 +11,7 @@
 \author{Mango Solutions}
 \keyword{hplot}
 \arguments{\item{obj}{An object of class \code{NMRun}, \code{NMProblem}, or \code{data.frame}. The object from which data will be plotted.}
-\item{contVar}{Character vector or comma-seperated list of continuous variables from which boxplots are created}
+\item{contVar}{Character vector or comma-separated list of continuous variables from which boxplots are created}
 \item{factVar}{Factor variable (single string)}
 \item{bVars}{Trellis variables, specified as characters (or \code{NULL}, which is the default).}
 \item{iVar}{ubject identifier variable.}

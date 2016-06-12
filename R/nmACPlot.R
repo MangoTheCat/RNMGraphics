@@ -64,8 +64,8 @@ nmACPlot.data.frame <- function(obj, var, tVar = "TIME", iVar = "ID", bVars = NU
 		problemNum = 1, subProblems = 1, ...)
 {
 	
-	## include conversion from comma seperated list to vector to allow for handling of 
-	## comma seperated list case as permitted in all other functions
+	## include conversion from comma separated list to vector to allow for handling of 
+	## comma separated list case as permitted in all other functions
 	var <- CSLtoVector(var, removeEmpty = TRUE)
 	RNMGraphicsStopifnot(length(var) == 1, "Must have only one variable\n")
 	# lag while preserving the ID structure

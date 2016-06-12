@@ -15,8 +15,8 @@ nmScatterMatrix(obj, vars, bVars = NULL, iVar = "ID",  addLoess = FALSE, title =
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{obj}{ An object of class \code{NMRun}, \code{NMProblem}, or \code{data.frame}. The object from which data will be plotted. }
-  \item{vars}{ Character vector or comma seperated list of variable names to plot }
-  \item{bVars}{ character vector or comma-seperated list of trellis variables }
+  \item{vars}{ Character vector or comma separated list of variable names to plot }
+  \item{bVars}{ character vector or comma-separated list of trellis variables }
   \item{iVar}{ Subject identifier variable. }
   \item{addLoess}{ Add a loess smoother? }
   \item{title}{ Main title. }

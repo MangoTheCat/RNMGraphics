@@ -3,7 +3,7 @@
 #'
 #' NOTE: Originally, it was envisioned that multiple y (or x) axis variables would be plotted
 #' across multiple plots stored in a single "multiTrellis" object.  Each x/y combo would be stored 
-#' as a seperate plot.  However, the underlying architecture was changed so that the extended lattice
+#' as a separate plot.  However, the underlying architecture was changed so that the extended lattice
 #' formula interface would be used.  Thus the ability to have multiple plots in a single object is currently
 #' deprecated, and will not be exposed for now
 #' 

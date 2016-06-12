@@ -53,8 +53,8 @@ stdGridDims <- function(numPlots, maxColumns )
 
 #' Generates a matrix of combinations of one set of set of variables "against" another set
 #' @title Generates a matrix of combinations for variables
-#' @param xVars Vector or comma seperated list of x variable names
-#' @param yVars Vector or comma seperated list of y variable names
+#' @param xVars Vector or comma separated list of x variable names
+#' @param yVars Vector or comma separated list of y variable names
 #' @param collapseY Collapse Y variables using +? (meant to be used with extended lattice formulas)
 #' @param collapseX Collapse X variables using +? meant to be used with extended lattice formulas)
 #' @return matrix of all xVars against yVars

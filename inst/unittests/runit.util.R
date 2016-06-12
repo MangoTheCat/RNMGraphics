@@ -12,7 +12,7 @@ test.processTrellis <- function()
 	
 	checkEquals(test1$data, expected1, msg = " basic call executed correctly")
 	
-	# maxLevels will be comma seperated characters for explicit breaks
+	# maxLevels will be comma separated characters for explicit breaks
 	
 	test2 <- RNMGraphics:::processTrellis( testDf, columns = c("X","ID"), maxLevels = "1,2,3,11" )
 	expected2 <- addDerivedCategorical( testDf, "X", newVar = "X", breaks = c(1,2,3,11), binType = "explicitcuts" )

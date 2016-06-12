@@ -1,7 +1,7 @@
 
 .RNMGraphicsEnv <- new.env()
 
-# TODO: refactor so that the graphics parameters are configured seperately
+# TODO: refactor so that the graphics parameters are configured separately
 
 initializeOptions <- function()
 {

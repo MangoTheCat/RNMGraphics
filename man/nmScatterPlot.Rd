@@ -8,7 +8,7 @@
 \keyword{hplot}
 \arguments{\item{obj}{An object of class NMRun, NMProblem, or data.frame. The object from which data will be plotted.}
 \item{xVars}{Single string with name of x-axis variable.}
-\item{yVars}{Variables to plot on the y-axes, specified as a comma seperated string or character vector}
+\item{yVars}{Variables to plot on the y-axes, specified as a comma separated string or character vector}
 \item{bVars}{"Trellis" variables on which to split data.}
 \item{gVars}{"Grouping" variable -- used to group points by colour, for legends and so on.}
 \item{iVars}{Variable name of the "inherent grouping" (subject identifier) variable.  This affects plots whose type is "l", "i", "o" or "t".
