@@ -4,8 +4,8 @@
 #' @name nmScatterMatrix
 #' @title NONMEM scatter-plot matrix
 #' @param obj object of class NMProblem, NMRun or data.frame
-#' @param vars Character vector or comma seperated list of variable names to plot
-#' @param bVars character vector or comma-seperated list of trellis variables
+#' @param vars Character vector or comma separated list of variable names to plot
+#' @param bVars character vector or comma-separated list of trellis variables
 #' @param iVar Identifier variable
 #' @param addLoess Logical flag. Should a loess smoother curve be added to the scatter-plots? 
 #' @param title Plot's main title

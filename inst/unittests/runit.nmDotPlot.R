@@ -75,7 +75,7 @@ test04 <- function() {
 }
 
 
-# tests fix for issue 3098 : auxilliary trellis variable created for "maxFactPerPanel" should never be binned 
+# tests fix for issue 3098 : auxiliary trellis variable created for "maxFactPerPanel" should never be binned 
 test05 <- function() {
 
 	testDf2 <- data.frame(X = rep(1, 100), ID = 1:100)

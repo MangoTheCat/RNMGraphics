@@ -3,7 +3,7 @@
 #' @name nmBoxPlot
 #' @title NONMEM box plot
 #' @param obj An object of class \code{NMRun}, \code{NMProblem}, or \code{data.frame}. The object from which data will be plotted.
-#' @param contVar Character vector or comma-seperated list of continuous variables from which boxplots are created
+#' @param contVar Character vector or comma-separated list of continuous variables from which boxplots are created
 #' @param factVar Factor variable (single string)
 #' @param bVars Trellis variables, specified as characters (or \code{NULL}, which is the default).
 #' @param iVar ubject identifier variable.
@@ -101,7 +101,7 @@ nmBoxPlot.data.frame <- function(obj, contVar, factVar, bVars = NULL, iVar = "ID
 	
 	NONMEMVARLENGTH <- 4
 	
-	# turn variables into vectors instead of comma seperated strings
+	# turn variables into vectors instead of comma separated strings
 	
 	## include removeEmpty to prevent errors around empty strings
 	## add some error handling around contVar if no variable is selected

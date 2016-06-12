@@ -2,7 +2,7 @@
 #' creates histograms of one or more NONMEM variables
 #' @title NONMEM data histogram
 #' @param obj The object from which data will be plotted (NMRun, NMProblem or data.frame)
-#' @param vars Variables from which to generate a histogram (character vector or comma seperate string of names)
+#' @param vars Variables from which to generate a histogram (character vector or comma separate string of names)
 #' @param bVars "Trellis" variables on which to split data.  
 #' @param iVar Subject identifier variable
 #' @param refLine Controls addition of a reference line to the histogram(s).  Choices are "none", "mean" or "median".
