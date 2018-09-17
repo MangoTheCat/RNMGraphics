@@ -21,6 +21,11 @@
 #' @author Mango Solutions
 #' @keywords hplot
 #' @exportMethod nmACPlot
+#' @examples 
+#' testDataPath <-  system.file("unittests/testdata/TestRun", package = "RNMGraphics")
+#' testDataList <- RNMImport::importNm("TestData1.ctl", path = testDataPath)
+#' x <- RNMImport::nmData(testDataList)
+#' nmACPlot(x, "IPRED")
 
 nmACPlot <- function(obj, var, tVar = "TIME", iVar = "ID", bVars = NULL, gVars = NULL,
 		titles = "", xLabs = NULL, yLabs = NULL, extraSubset = NULL, addGrid = TRUE, 

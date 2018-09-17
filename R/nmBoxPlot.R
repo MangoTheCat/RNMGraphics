@@ -38,6 +38,8 @@
 #' Theoph.df <- as.data.frame(Theoph)
 #' nmBoxPlot(Theoph.df, contVar = "conc", factVar = "Time", factBin = 6)
 #' }
+#' nmBoxPlot(sleep, contVar = "extra" , factVar = "group", titles = "Sleep data",
+#' xLabs = "Group", yLabs = "Extra sleep", medianLines = FALSE)
 #' @keywords hplot
 #' @exportMethod nmBoxPlot
 
