@@ -22,6 +22,11 @@
 #' \dontrun{ 
 #' nmBarChart(mtcars, xVars = "cyl", yVars = "gear", bVars = "vs")
 #' }
+#' 
+#' CO2.df <- as.data.frame(CO2)
+#' nmBarChart(CO2.df, "Plant", "Treatment",
+#'         title = "CO2", xLab = "The Treatment", 
+#'         yLab = "The type")
 #' @author Mango Solutions
 #' @keywords hplot
 #' @exportMethod nmBarChart

@@ -20,6 +20,11 @@
 #' @author Mango Solutions
 #' @keywords hplot
 #' @exportMethod nmScatterMatrix
+#' @examples 
+#' test_data <- data.frame(X = 1:20, Y = 1:20, Z = c(1:10, seq(from = 11, to = 12, length.out = 10)),
+#' W = 20:1, G = rep(LETTERS[1:2], 10), B = rep(letters[1:2], each = 10))
+#' nmScatterMatrix(test_data, "X,Y", bVars = "B")
+
 
 nmScatterMatrix <- function(obj, vars,bVars = NULL, iVar = "ID",  addLoess = FALSE, title ="", 
 		layout = NULL, maxPanels = NULL, maxTLevels = Inf, problemNum = 1, subProblems = 1, ...)

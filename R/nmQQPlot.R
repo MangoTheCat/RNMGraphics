@@ -27,6 +27,8 @@
 #' }
 #' @keywords hplot
 #' @exportMethod nmQQNorm
+#' @examples 
+#' nmQQNorm(sleep, "extra", bVar = "group", xLabs = "Normal distribution", titles = "Sleep data", yLabs = "Extra sleep")
 
 
 nmQQNorm <- function(obj, vars, bVars = NULL, iVar = "ID", titles = "", xLabs = "normal", yLabs, 

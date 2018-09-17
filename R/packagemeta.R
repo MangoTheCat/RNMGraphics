@@ -77,6 +77,9 @@ setAllGraphParams <- function(settings)
 #' @name Graphical parameters
 #' @aliases setAllGraphParams getAllGraphParams setGraphParams getGraphParams
 #' @export
+#' @examples
+#' # getAllGraphParams
+#' res <- getAllGraphParams()
 
 getAllGraphParams <- function()
 {
@@ -87,6 +90,11 @@ getAllGraphParams <- function()
 #' @aliases setAllGraphParams getAllGraphParams setGraphParams getGraphParams
 #' @param field A string with the name of the field/option (e.g. loess.line) that the user wishes to change or retrieve
 #' @export
+#' @examples 
+#' # setGraphParams
+#' setGraphParams("plot.text", list(alpha=1000, cex=1000, col="orange"))
+#' getGraphParams("plot.text")
+
 
 setGraphParams <- function(field, setting)
 {
@@ -106,6 +114,10 @@ setGraphParams <- function(field, setting)
 #' @name Graphical parameters
 #' @aliases setAllGraphParams getAllGraphParams setGraphParams getGraphParams
 #' @export
+#' @examples
+#' # getGraphParams
+#' res <- getGraphParams("legend")
+
 
 getGraphParams <- function(field)
 {

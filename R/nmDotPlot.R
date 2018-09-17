@@ -30,6 +30,9 @@
 #'  Theoph.df <- as.data.frame(Theoph)
 #'  nmDotPlot( Theoph.df, factVar = "Subject", contVar = "Dose" )
 #' }
+#' test_data <- data.frame(X = 1:20, Y = 1:20, Z = c(1:10, seq(from = 11, to = 12, length.out = 10)),
+#' W = 20:1, G = rep(LETTERS[1:2], 10), B = rep(letters[1:2], each = 10))
+#' nmDotPlot(test_data, factVar = "B", contVar = "X,W")
 #' @keywords hplot
 #' @exportMethod nmDotPlot
 
